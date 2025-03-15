@@ -1,0 +1,109 @@
+body {
+    background-color: rgba(5, 5, 5, 0.575);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+section {
+    width: 400px;
+    height: 340;
+    background: white;
+    margin: auto;
+    margin-top: 180px;
+    padding: 20px 30px;
+    border-top: 9px solid rgba(3, 3, 3, 0.932);
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.registro{
+    width: 450px;
+    height:200;
+    background: white;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px 30px;
+    border-top: 9px solid rgba(3, 3, 3, 0.932);
+    color: black;
+    justify-content:center;
+    align-items: center;
+    text-align:center;
+}
+
+
+h1{
+    color: black; 
+    font-size: 35px;
+}
+
+/* FORMULARIO */
+form input[type="text"],
+form input[type="email"],
+FORM input[type="number"],
+form input[type="date"],
+form input[type="password"]{
+	width: 300px;
+    height: 30px;
+	padding: 2px 5px;
+	border: 1px solid #faf9f9;
+    border-left: 2px solid #585858;
+    border-right: 2px solid #585858;
+	border-radius:10px;
+	background-color:#e7e8f1;
+	margin:8px 0;
+	display:inline-block;
+    font-size: 20px;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+    transition: all .4s linear;
+    font-size: 20px;
+}
+form input[type="submit"]:hover{
+    background-color: rgba(5, 24, 131, 0.89);
+}
+
+select{
+    width: 310px;
+    height: 35px;
+	padding: 2px 5px;
+	border: 1px solid #faf9f9;
+    border-left: 2px solid #585858;
+    border-right: 2px solid #585858;
+	border-radius:10px;
+	background-color:#e7e8f1;
+	margin:8px 0;
+	display:inline-block;
+    font-size: 20px;
+}
+
+label{
+    font: bold;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all .4s linear;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+a:hover{
+    background-color: rgb(215, 218, 236);
+    border-radius: 5px;
+    padding: 6px;
+}
